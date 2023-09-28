@@ -29,3 +29,17 @@ let meuProduto: produtoLoja = {
     preco: 10,
     unidades: 30,
 };
+//array
+
+let dados: string[]= ["Felipe", "Ana", "Adriana"]
+
+let dados2: Array<string> = ["Felipe", "Ana", "Adriana"]
+
+//tuplas
+
+let boleto:[string, number, number] = ["water", 31,23]
+
+//metodos arrays
+//datas
+let aniver:Date = new Date("2022-01-01 08:10");
+console.log(aniver.toString)
