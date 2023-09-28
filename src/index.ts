@@ -43,3 +43,18 @@ let boleto:[string, number, number] = ["water", 31,23]
 //datas
 let aniver:Date = new Date("2022-01-01 08:10");
 console.log(aniver.toString)
+
+function addNumber(x: number, y: number){
+    return x+y;
+}
+let soma: number = addNumber(3,7)
+
+console.log(soma)
+
+//multi tipos
+
+//async 
+
+async function getDataBase(id: number):Promise<string>{
+    return "Nara"
+}
